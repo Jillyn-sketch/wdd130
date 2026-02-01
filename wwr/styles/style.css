@@ -3,7 +3,13 @@
     margin: 0 auto;
 }
 #logo_link{
+    justify-self: center;
+    align-self: center;
     padding-top: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     text-align: center;
@@ -14,6 +20,21 @@ nav a{
 }
 .button-box{
     text-align: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 main section{
     text-align: center;
@@ -37,7 +58,9 @@ background-color: #fffbf4;
     padding: 0;
 }
 header{
-background-color: #394A5B;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #394A5B;
 }
 nav a:hover{
 background-color: #d4d6e1;
