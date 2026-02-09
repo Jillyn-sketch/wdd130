@@ -1,33 +1,8 @@
+body{
+    background-color: #008db1;
+}
+
 img {
-    width: 50%;
-}
-.shadow {
-    background-color: aliceblue;
-}
-body{
-    margin: 0;
-    font-size: large;
-    background-color: antiquewhite;
-}
-#content{
-    max-width:300px;
-    margin: 40 auto;
-    background-color: black;
-}
-img{
-    width: 15%;
-    display:block;
+    width: 250px;
     margin: 0 auto;
-    text-align: center;
-}
-body{
-    margin: 0;
-    background-color: lightgoldenrodyellow;
-}
-#title{
-    text-align: center;
-}
-h2, p {
-    margin-left:40;
-    margin-right: 40;
 }
