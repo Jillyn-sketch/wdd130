@@ -1,8 +1,17 @@
-body{
-    background-color: #008db1;
-}
 
-img {
-    width: 250px;
-    margin: 0 auto;
+body {
+    background: rgb(238, 238, 219);
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #652b2b; 
+}
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
