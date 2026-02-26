@@ -56,6 +56,12 @@ ul li a:hover {
     width: 100%;
 }
 
+#ICElist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 main {
     text-align: center;
 }
